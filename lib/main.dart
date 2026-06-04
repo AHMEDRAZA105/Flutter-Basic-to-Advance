@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_basic_to_advancde/Screens/Home/home.dart';
 import 'package:flutter_basic_to_advancde/Screens/Home/home_stateful.dart';
 import 'package:flutter_basic_to_advancde/Screens/text_widget_explanation.dart';
+import 'package:flutter_basic_to_advancde/Screens/Image_Widget.dart';
 void main(){
 runApp(
     myApp()
@@ -25,7 +26,9 @@ Widget build(BuildContext context){
       //home: HomePage(),
      //Statefull homepage
     //home: HomeScreen(),
-  home: TextWidget(),
+  //home: TextWidget(),
+    //home of image widget
+    home: ImageWidget(),
   );
 }
 }
