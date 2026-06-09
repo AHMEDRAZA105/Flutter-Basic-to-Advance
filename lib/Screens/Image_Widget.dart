@@ -12,12 +12,12 @@ class ImageWidget extends StatelessWidget{
  //3 Types of images are used in flutter assert image, network image, file image
         //Asset image
       body:
-      //CircleAvatar(
+      CircleAvatar(
         //In this radius is used height and width is used
         //radius:40,
         //foregroundImage: AssetImage("assest/Images/Image1.JPG" ),
         //backgroundColor: Colors.green,
-      ),
+      )
       //Image.network("https://media.istockphoto.com/id/482206266/photo/kaaba-in-mecca.jpg?s=1024x1024&w=is&k=20&c=dIQHRc1GU9pjFjWjQNn79_--sSxNVXv5QmwAyjAoBhs=")
       //Image.asset("assets/Images/Image1.JPG") 
       //or
@@ -42,6 +42,7 @@ class ImageWidget extends StatelessWidget{
       //Network Image
         //image: NetworkImage("https://media.istockphoto.com/id/482206266/photo/kaaba-in-mecca.jpg?s=1024x1024&w=is&k=20&c=dIQHRc1GU9pjFjWjQNn79_--sSxNVXv5QmwAyjAoBhs="),
    //   ),
+
     );
   }
 }
