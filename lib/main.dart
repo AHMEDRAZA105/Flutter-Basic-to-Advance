@@ -10,6 +10,7 @@ import 'Screens/Click_Able_Widget.dart';
 import 'Screens/Column&Row explanation.dart';
 import 'Screens/Container Explain.dart';
 import 'Screens/List_View&List_Style.dart';
+import 'Screens/Responsive_layouts.dart';
 import 'Screens/Text_Fiels&Form basics.dart';
 void main(){
 runApp(
@@ -36,7 +37,7 @@ Widget build(BuildContext context){
     //home: HomeScreen(),
   //home: TextWidget(),
     //home of image widget
-    home:  ListViewTile(),
+    home:  ResponsiveLayouts(),
   );
 }
 }
